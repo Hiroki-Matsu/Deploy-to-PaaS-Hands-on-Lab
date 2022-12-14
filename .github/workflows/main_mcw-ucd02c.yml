@@ -52,6 +52,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'mcw-ucd02c'
-          slot-name: 'Production'
+          slot-name: 'staging'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7B61204D6C0C4ABFB50D04F97BBB5E76 }}
           package: .
